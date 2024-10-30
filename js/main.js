@@ -9,15 +9,12 @@
     elementy.forEach(element => {
       element.addEventListener('click', () => {
      
-        //   console.log(`Bylo kliknuto na element s třídou: ${element.className}`);
+        
         if (element.classList.contains('mitch')) {
-         
-         
-          
-          // Kód, který se spustí při kliknutí na Mitch
-          // console.log('Bylo kliknuto na Mitch. ', element.textContent);
             
-            // Zde vložte další akce pro Mitch
+            // Kód, který se spustí při kliknutí na Mitch
+            // console.log('Bylo kliknuto na Mitch. ', element.textContent);
+              
 
 
             let scorePlus = element.textContent;
@@ -34,8 +31,6 @@
             // Kód, který se spustí při kliknutí na Vasho
             // console.log('Bylo kliknuto na Vasho. ');
             
-            // Zde vložte další akce pro Vasho
-
               let scorePlus = element.textContent;
               scorePlus++;
               
